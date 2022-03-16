@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(217, 54%, 11%);
+  font-family: "Outfit", sans-serif;
+  display: flex;
+  height: 100vh;
+  font-size: 18px;
+  justify-content: center;
+  align-items: center;
+}
+main {
+  background-color: hsl(216, 50%, 16%);
+  width: 20em;
+  padding: 1.5em;
+  overflow: hidden;
+  border-radius: 10px;
+}
+main text {
+  display: flex;
+  align-items: center;
+}
+h1 {
+  color: white;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+h1:hover {
+  color: cyan;
+}
+.text {
+  color: rgba(255, 255, 255, 0.349);
+  line-height: 1.5em;
+}
+.cube {
+  width: 300px;
+  height: 300px;
+  border-radius: 8px;
+
+}
+.eye {
+  visibility: hidden;
+
+}
+.cube:hover {
+  color: cyan;
+}
+.info {
+  color: aliceblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.ETH {
+  display: flex;
+  align-items: flex-start;
+}
+.crypto {
+  margin-right: 5px;
+}
+.price {
+  font-size: 16px;
+  color: hsl(178, 100%, 50%);
+}
+.timing {
+  display: flex;
+  align-items: flex-end;
+}
+.clock {
+  margin-right: 5px;
+  display: flex;
+  color: rgba(255, 255, 255, 0.425);
+}
+.time {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.425);
+}
+.creator {
+  color: rgba(255, 255, 255, 0.425);
+  display: flex;
+  justify-content: flex-start;
+  border-top: 0.5px solid rgba(255, 255, 255, 0.425);
+  padding-top: 20px;
+}
+.photo {
+  width: 30px;
+  height: 30px;
+  border: 1.5px solid white;
+  border-radius: 100%;
+  margin-right: 20px;
+}
+.span {
+  color: hsl(0, 0%, 100%);
+}
